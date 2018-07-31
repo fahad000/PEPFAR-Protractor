@@ -1,6 +1,6 @@
  var HTMLReporter = require('protractor-beautiful-reporter');
 exports.config={
-    seleniumAddress:'http://localhost:4444/wd/hub',
+    seleniumAddress:'http://localhost:4444/wd/hub', 
     specs:['spec2.js'],
 // capabilities: {
 //     browserName: 'chrome',
@@ -20,6 +20,6 @@ exports.config={
     // capabilities: { 
     //     'browserName': 'chrome', 
     //      chromeOnly:true , 
-    //      directConnect: true } 
+    //      directConnect: true test }  
         };
  
